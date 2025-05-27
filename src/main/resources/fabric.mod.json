@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "shadedarts",
+	"version": "${version}",
+	"name": "ShadedArts",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"AkiMaybi!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/shadedarts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.akimaybi.shadedarts.ShadedArts"
+		],
+		"fabric-datagen": [
+			"net.akimaybi.shadedarts.ShadedArtsDataGenerator"
+		],
+		"client": [
+			"net.akimaybi.shadedarts.ShadedArtsClient"
+		]
+	},
+	"mixins": [
+		"shadedarts.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
