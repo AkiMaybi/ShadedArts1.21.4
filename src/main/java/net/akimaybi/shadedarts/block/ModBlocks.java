@@ -2,8 +2,7 @@ package net.akimaybi.shadedarts.block;
 
 import net.akimaybi.shadedarts.ShadedArts;
 import net.akimaybi.shadedarts.block.custom.BlindingTrap;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -25,6 +24,10 @@ public class ModBlocks {
             AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOL));
     public static final Block RED_SHADE_TILE = registerBlock("red_shade_tile",
             AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOL));
+
+
+
+
 
     public static final Block Blinding_Trap = registerBlock("blinding_trap",
             BlindingTrap.Settings.create().strength(3f).sounds(BlockSoundGroup.WOOL));

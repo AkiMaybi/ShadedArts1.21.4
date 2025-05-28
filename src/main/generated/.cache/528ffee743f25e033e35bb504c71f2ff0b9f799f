@@ -1,0 +1,6 @@
+// 1.21.4	-999999999-01-01T00:00:00	ShadedArts/Block Loot Tables
+aefd637204ec689b3f3d8545d1fd3246875c67a0 data/shadedarts/loot_table/blocks/green_shade_tile.json
+d9da8d02f4a9b7175745d0d1d874c5c536b94469 data/shadedarts/loot_table/blocks/purple_shade_tile.json
+0d536b9e21141b352181e25820a8699416e25cc4 data/shadedarts/loot_table/blocks/red_shade_tile.json
+7bf9806edfe34f1f5c8b7f7e5a2746e4ef1edb43 data/shadedarts/loot_table/blocks/shade_tile.json
+6cf4e59e3a0ccdec13ed27208f80a804e452a85f data/shadedarts/loot_table/blocks/yellow_shade_tile.json

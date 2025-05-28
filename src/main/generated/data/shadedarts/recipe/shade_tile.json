@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": "shadedarts:shade_gem",
+    "R": "minecraft:white_wool"
+  },
+  "pattern": [
+    "RRR",
+    "RAR",
+    "RRR"
+  ],
+  "result": {
+    "count": 8,
+    "id": "shadedarts:shade_tile"
+  }
+}

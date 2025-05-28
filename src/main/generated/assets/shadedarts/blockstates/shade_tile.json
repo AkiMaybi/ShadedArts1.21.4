@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "shadedarts:block/shade_tile"
+    }
+  }
+}
