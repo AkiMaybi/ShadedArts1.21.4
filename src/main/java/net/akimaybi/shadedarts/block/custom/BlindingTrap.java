@@ -9,6 +9,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+
 public class BlindingTrap extends Block {
     public BlindingTrap(Settings settings) {
         super(settings);
@@ -26,4 +27,6 @@ public class BlindingTrap extends Block {
 
         super.onSteppedOn(world, pos, state, entity);
     }
+
+
 }

@@ -3,19 +3,28 @@ package net.akimaybi.shadedarts.item;
 import net.akimaybi.shadedarts.ShadedArts;
 import net.akimaybi.shadedarts.item.custom.ArtfulStaff;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+
+import java.util.List;
 
 public class ModItems {
     public static final Item SHADE_GEM = registerItem("shade_gem",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,
                     Identifier.of(ShadedArts.MOD_ID,"shade_gem")))));
-    public static final Item SHADED_SHARD = registerItem("shaded_shard",
-            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,
-                    Identifier.of(ShadedArts.MOD_ID,"shaded_shard")))));
+    public static final Item SHADED_SHARD = registerItem("shaded_shard", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ShadedArts.MOD_ID,"shaded_shard")))){
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.shadedarts.shaded_shard"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
     public static final Item ARTFUL_STAFF = registerItem("artful_staff",
             new ArtfulStaff(new Item.Settings().maxDamage(16).registryKey(RegistryKey.of(RegistryKeys.ITEM,
                     Identifier.of(ShadedArts.MOD_ID,"artful_staff")))));

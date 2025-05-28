@@ -4,6 +4,18 @@
   "item.shadedarts.artful_staff": "Artful Staff",
 
   "item.shadedarts.shade_tile": "Shade Tile",
+  "item.shadedarts.purple_shade_tile": "Purple Shade Tile",
+  "item.shadedarts.green_shade_tile": "Green Shade Tile",
+  "item.shadedarts.yellow_shade_tile": "Yellow Shade Tile",
+  "item.shadedarts.red_shade_tile": "Red Shade Tile",
 
-  "itemgroup.shadedarts.shaded_arts_general": "Shaded Arts: general"
+  "itemgroup.shadedarts.shaded_arts_general": "Shaded Arts: general",
+
+  "tooltip.shadedarts.artfulstaff_altdown1": "§9- §rRecolors Shade Blocks",
+  "tooltip.shadedarts.artfulstaff_altdown2": "§9Blue §r- §5Purple §r- §aGreen §r- §eYellow §r- §cRed",
+  "tooltip.shadedarts.artfulstaff_altup": "hold ALT for more info.",
+  "tooltip.shadedarts.shaded_shard": "§9- §rShard of a Shadow"
+
+
+
 }
